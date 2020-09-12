@@ -285,8 +285,8 @@ const RadioNews = () => {
         </Grid>
         <Grid item sm={6} xs={12}>
           <Card className={classes.card}>
-            <h1>Campus Life Story</h1>
-            <h2>(9/26/17)</h2>
+            <h1>Newswatch Director</h1>
+            <h2>(2019)</h2>
             <div style={{ padding: "56.25% 0 0 0", position: "relative" }}>
               <iframe
                 src="https://player.vimeo.com/video/377867752?color=f5deb3"
