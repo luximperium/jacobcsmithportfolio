@@ -1,38 +1,82 @@
-.App {
+body {
+  background: fixed linear-gradient(darkslategrey, rgb(15, 26, 26));
+  margin: 0;
+}
+
+body::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track {
+  background: darkslategrey;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(23, 39, 39);
+  outline: 1px solid wheat;
+}
+
+.Navbar {
+  background-color: rgb(23, 39, 39);
+  color: wheat;
+}
+
+.CategoryNavbar {
+  color: rgb(23, 39, 39);
+  background-color: wheat;
+}
+
+.Category-Link {
+  color: rgb(23, 39, 39);
+  text-decoration: none;
+}
+
+.Header-Link {
+  color: #f5deb3;
+  text-decoration: none;
+}
+
+.Contact {
+  color: #f5deb3;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ContactContainer {
+  color: #f5deb3;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.carousel {
   color: white;
+  text-shadow: 3px 3px black;
+  padding: 1em;
+  font-size: 14pt;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Main {
+  transform: translateY(8em);
+}
+
+.Fortune {
+  position: fixed;
+  width: 100vw;
+  text-align: center;
+  transform: translateY(5em);
+}
+
+.ContactSubContainer {
+  position: fixed;
+  width: 100vw;
+}
+
+.ContactCard {
+  position: fixed;
+  width: 100vw;
 }
