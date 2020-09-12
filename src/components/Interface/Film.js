@@ -7,9 +7,7 @@ import {
   CardMedia,
   Card,
   CardContent,
-  CardHeader,
   Typography,
-  responsiveFontSizes,
 } from "@material-ui/core";
 import { Link } from "react-router-dom";
 import "fontsource-roboto";

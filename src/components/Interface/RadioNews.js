@@ -3,25 +3,12 @@ import "../../App.css";
 import Grid from "@material-ui/core/Grid";
 import {
   makeStyles,
-  Button,
-  CardMedia,
   Card,
   CardContent,
-  CardHeader,
   Typography,
-  responsiveFontSizes,
 } from "@material-ui/core";
-import { Link } from "react-router-dom";
 import "fontsource-roboto";
 import "react-animated-slider/build/horizontal.css";
-import CQI from "../../assets/CQI.jpg";
-import BeneathPoster from "../../assets/TheBeneathPoster.jpg";
-import BearsPoster from "../../assets/bearsposter.png";
-import LedAstrayPoster from "../../assets/ledastrayposter.jpg";
-import WTWSPoster from "../../assets/WTWSPoster.jpg";
-import UprootedPoster from "../../assets/UprootedPoster.png";
-import IMDB from "../../assets/IMDB.jpg";
-import WaterfallPic from "../../assets/WaterfallPic.png";
 import ShowPromo from "../../assets/Media/ShowPromo.mp3";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
@@ -29,9 +16,6 @@ import KECC from "../../assets/Media/KECCShow.mp3";
 import BlackPantherPromo from "../../assets/Media/BlackPantherRadioPromo.mp3";
 import UprootedPromo from "../../assets/Media/UprootedRadioPromo.mp3";
 import NamelessPodcast from "../../assets/Media/NamelessPodcastEpisodeMusic.mp3";
-import MusicDonut from "../../assets/Media/musicdonutnewswatch2.mp4";
-import JSMITH from "../../assets/Media/JSMITHFootball.mp4";
-import ReactPlayer from "react-player";
 
 const useStyles = makeStyles((theme) => ({
   app: {},

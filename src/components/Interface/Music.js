@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "../../App.css";
 import Grid from "@material-ui/core/Grid";
 import {
@@ -7,9 +7,7 @@ import {
   CardMedia,
   Card,
   CardContent,
-  CardHeader,
   Typography,
-  responsiveFontSizes,
 } from "@material-ui/core";
 import "fontsource-roboto";
 import "react-animated-slider/build/horizontal.css";

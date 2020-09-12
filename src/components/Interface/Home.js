@@ -1,22 +1,18 @@
 import React, { Component } from "react";
 import "../../App.css";
 import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
 import {
   makeStyles,
   Button,
   CardMedia,
   Card,
   CardContent,
-  CardHeader,
   Typography,
-  responsiveFontSizes,
 } from "@material-ui/core";
 import Film from "../../assets/thebeneath.jpg";
 import News from '../../assets/NewsPhoto.png'
 import Music from "../../assets/TakeYourTime.jpg";
 import { Link } from "react-router-dom";
-import JacobPic from "../../assets/jacobcover.jpg";
 import "fontsource-roboto";
 import Slider from "react-animated-slider";
 import "react-animated-slider/build/horizontal.css";
